@@ -1,0 +1,463 @@
+.main-wrapper{
+    background-color:white;
+    width: 1000px; 
+}
+
+.header{
+    width:100%;
+    height:125px;
+    background-color:yellow;
+    margin-top: 0px;
+}
+
+.header .top{
+    width: 100%;
+    height: 85px;
+    background-color: #7dd9e8;
+    /* padding-top: 20px; */
+    padding-bottom: 0px;
+}
+
+.header .top .inside{
+    width:936px;
+    height:52px;
+    margin-left: 32px;
+    /* margin-top: 20px; */
+    margin-right: 32px;
+    padding-top: 20px;
+    /* margin-bottom: 13px; */
+    background-color: red;
+}
+
+.headerleft{
+    width: 207px;
+    height: 52px;
+    float:left;
+    background-color: black;
+}
+
+.search{
+    width: 392px;
+    height: 52px;
+    float:left;
+    background-color: saddlebrown;
+}
+
+.search .searchbar{
+    width: 335px;
+    height: 20px;
+    margin-top:20px;
+    margin-left:24px;
+    background-color: white;
+}
+
+.headerright{
+    width: 329px;
+    height: 52px;
+    float:right;
+    background-color: darkgreen;
+}
+
+.header .menubar{
+    width:100%;
+    height:40px;
+    /* background-color: #f5f5f5; */
+    background-color: blue;
+}
+
+.header .menubar .inside{
+    width:936px;
+    height:40px;
+    margin-left: 32px;
+    margin-right: 32px;
+    background-color: bisque;
+}
+
+.navbar{
+    width:auto;
+    height:40px;
+    float:left;
+}
+
+.navbar ul{
+    float: left;
+    height: 40px;
+}
+
+.navbar ul li{
+    line-height: 40px;
+    list-style:none;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar ul li:hover{
+    background-color: black;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: gray;
+    display: block;
+}
+
+.notificationbar{
+    width:auto;
+    background-color: indigo;
+    height: 40px;
+    float:right;
+}
+
+.notificationbar ul{
+    float:left;
+    height: 40px;
+}
+
+.notificationbar ul li{
+    line-height: 40px;
+    list-style: none;
+    float:left;
+    font-size: 12px;
+}
+
+.notificationbar ul li a:hover{
+    background-color: aliceblue;
+    color:black;
+}
+
+.notificationbar ul li a{
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 0px;
+    color:  yellow;
+    display: block;
+}
+
+.body{
+    width:100%;
+    height: 647px;
+    padding-top: 30px;
+    background-color:pink;
+}
+
+.body .content{
+    width: 936px;
+    height: 620px;
+    margin-left: 32px;
+    margin-right: 32px;
+    background-color: palegreen;
+    padding-top: 0px;
+    float: left;
+}
+
+.body .content .leftcontent{
+    width: 738px;
+    height: 400px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: darkgreen;
+    padding-top:0px;
+}
+
+.body .content .leftcontent .leftside{
+    width: 194px;
+    height: 300px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: red;
+    padding-top: 0px;
+    float:left;
+}
+
+.body .content .leftcontent .rightside{
+    width: 520px;
+    height: 300px;
+    margin-left: 24px;
+    background-color: red;
+}
+
+.body .content .rightcontent{
+    width: 176px;
+    height:400px;
+    margin-left: 22px;
+    margin-right: 0px;
+    background-color: darkgreen;
+    padding-top: 0px;
+}
+
+.box{
+    width:100%;
+    height: auto;
+    float: left;
+}
+
+.box .header{
+    width: 100%;
+    height: 42px;
+    background-color: blue;
+    line-height: 42px;
+}
+
+.box .header strong{
+    margin-left: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.box .boxbody{
+    width: 100%;
+    height: auto;
+    background-color: yellowgreen;
+}
+
+.box .boxbody ul{
+    text-decoration: none;
+}
+
+.box .boxbody ul li{
+    line-height: 20px;
+    /* padding: 10px; */
+    list-style: none;
+    font-size: 13px;
+}
+
+.box .boxbody ul li a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color:black;
+    display: block;
+}
+
+.box .boxbody ul li a:hover{
+    background-color: white;
+}
+
+.box .boxbody ul li a span{
+    width:75%;
+    display: block;
+    height:auto;
+    line-height:20px;
+    float: left;
+}
+
+h1{
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menus{
+    width: 100%;
+    height:300px;
+    background-color: aliceblue;
+}
+
+.menus .top{
+    width: 100%;
+    height: 50px;
+    margin-top: 00px;
+    background-color: blue;
+}
+
+.menus .top ul{
+    line-height: 50px;
+    font-size: 12px;
+}
+
+.menus .top ul li{
+    list-style: none;
+    color: black;
+    float: left;
+    width:48%;
+    text-align: center;
+    border-left: 5px;
+    border-left-color: white;
+}
+
+.menus .middle{
+    width: 100%;
+    height: 30px;
+    background-color: darkblue;
+    float: left;
+}
+
+.menus .middle .tabgroup{
+    width: 48%;
+    height: 28px;
+    background-color: yellow;
+    margin-right: 2%;
+    float: left;
+}
+
+.menus .middle .tabgroup ul li{
+    width:46%;
+    text-align: center;
+    list-style: none;
+    line-height: 28px;
+    font-size: 12px;
+    color:black;
+    float: left;
+    border-left: 2%;
+    border-left-color:darkblue;
+}
+
+.menus .middle .tabgroup ul li a{
+    color: black;
+    text-decoration: none;
+    display: block
+}
+
+.menus .middle .tabgroup ul li a:hover{
+    background-color: white;
+}
+
+.menus .middle .tabgroup .tab{
+    width:114px;
+    height:28px;
+    text-align: center;
+    list-style: none;
+    line-height: 28px;
+    font-size: 12px;
+    background-color: black;
+    float: left;
+    margin-left: 10px;
+    margin-right: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menus .middle .tabgroup .tab a{
+    text-decoration: none;
+    line-height: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    display: block;
+}
+
+.menus .middle .tabgroup .tab a:hover{
+    background-color: blue;
+    color:white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menus .middle .blueline{
+    width: 100px;
+    height:2px;
+    background-color: blue;
+}
+
+.menus .content{
+    width: 100%;
+    height: 200px;
+    background-color: violet;
+    padding:0px;
+    margin:0px;
+}
+
+.menus .content .individual{
+    width:100%;
+    height: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: brown;
+    border-bottom: 1px solid grey;
+    /* float: left; */
+}
+
+.menus .content .individual .description{
+    width: 85%;
+    height: 70px;
+    background-color: green;
+    margin:0px;
+    margin-left: 10 px;
+    padding:0px;
+    float: right;
+}
+
+.menus .content .individual .description p{
+    font-size: 10px;
+    color: black;
+}
+
+.menus .content .individual .description p span{
+    color:blue;
+    font-weight: bold;
+}
+
+.image{
+    width: 70px;
+    height: 70px;
+    background-color: orange;
+    float: left;
+}
+
+.footer{
+    width:100%;
+    height: 45px;
+    background-color: purple;
+}
+
+.footer .inside{
+    width:936px;
+    height:25px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gray;
+}
+
+.footer .inside .left{
+    width: auto;
+    height:25px;
+    background-color: blue;
+    float: left;
+    padding: 0px;
+}
+
+.footer .inside .left ul{
+
+}
+
+.footer .inside .left ul li{
+    font-size: 10px;
+    color: white;
+    line-height: 25px;
+    float: left;
+    /* list-style: none; */
+    padding-right: 20px;
+}
+
+.footer .inside .left ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+.footer .inside .left ul li a:hover{
+    color: black;
+}
+
+.footer .inside .right{
+    width: 100px;
+    height: 25px;
+    padding: 0px;
+    background-color: blue;
+    float: right;
+}
+
+.footer .inside .right span{
+    font-size: 10px;
+    color:white;
+    line-height: 25px;
+    float:right;
+}
